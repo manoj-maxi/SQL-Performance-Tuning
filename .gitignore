@@ -1,0 +1,22 @@
+# Power BI / Fabric
+*.pbix.bak
+.tmp/
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets — never commit
+*.env
+.env*
+secrets.json
+*.key
